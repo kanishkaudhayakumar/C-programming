@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main()
+{
+    int N;
+    scanf("%d",&N);
+    if(1<=N<=100000)
+    {
+        if(N>0)
+        {
+            printf("Positive");
+        }
+        else if(N<0)
+        {
+            printf("Negative");
+            
+        }
+        else
+        {
+            printf("Zero");
+        }
+    }
+    else
+      {
+        printf("invalid");
+      }
+        
+    
+
+    return 0;
+}
+
+
+
+
+
