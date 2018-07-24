@@ -9,7 +9,7 @@ int main()
     originalInteger = N;
 
     // reversed integer is stored in variable 
-    while( N>=1000)
+    while( N!=0)
     {
         remainder = N%10;
         reversedInteger = reversedInteger*10 + remainder;
