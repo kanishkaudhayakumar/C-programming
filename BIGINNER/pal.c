@@ -8,7 +8,7 @@ int main()
 
     originalInteger = N;
 
-    // reversed integer is stored in variable 
+    
     while( N!=0)
     {
         remainder = N%10;
@@ -16,7 +16,7 @@ int main()
         N=N/10;
     }
 
-    // palindrome if orignalInteger and reversedInteger are equal
+
     if (originalInteger == reversedInteger)
         printf(" yes", originalInteger);
     else
