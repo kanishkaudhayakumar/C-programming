@@ -21,7 +21,7 @@ int main()
     if (flag==0)
         printf("yes");
     else
-        printf("nO");
+        printf("no");
     
     return 0;
 }
