@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main()
 {
-    int low, high, i, flag;
+    int low, high, i,j, flag;
     scanf("%d %d", &low, &high);
 
   
 
-    while (low < high)
+    for(i=low+1;i<high;i++)
     {
         flag = 0;
 
-        for(i = 2; i <= low/2; ++i)
+        for(j= 2; j<=i/2; ++j)
         {
-            if(low % i == 0)
+            if(i%j == 0)
             {
                 flag = 1;
                 break;
@@ -20,9 +20,8 @@ int main()
         }
 
         if (flag == 0)
-            printf("%d ", low);
+            printf("%d ",i);
 
-        ++low;
     }
 
     return 0;
