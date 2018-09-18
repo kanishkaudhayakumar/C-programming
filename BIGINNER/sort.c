@@ -23,7 +23,7 @@ int main()
 	}
 	for (i = 0; i < Size; i++)
 	{
-		printf("%d", Array[i]);
+		printf(" %d", Array[i]);
 	}
 	
 	return 0;
