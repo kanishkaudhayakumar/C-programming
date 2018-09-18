@@ -23,6 +23,6 @@ int main()
         }
     } 
     
-    printf("%d\n", location, minimum);
+    printf("%d\n",minimum);
     return 0;
 }
